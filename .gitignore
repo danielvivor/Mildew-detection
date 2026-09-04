@@ -7,8 +7,14 @@ __pycache__/
 venv/
 ENV/
 
-# Datasets and Large Output Files
-inputs/**/
+# Ignore raw and split datasets
+inputs/datasets/
+inputs/datasets/*
+inputs/datasets/cherry-leaves/
+inputs/datasets/cherry_leaves_split/
+
+# Ignore outputs with generated arrays/models if needed
+outputs/v1/*.npy
 outputs/v1/*.h5
 
 # OS files
