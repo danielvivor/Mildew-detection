@@ -7,13 +7,12 @@ __pycache__/
 venv/
 ENV/
 
-# Ignore raw and split datasets
+# Ignore all extracted and split datasets under inputs/
 inputs/datasets/
 inputs/datasets/*
-inputs/datasets/cherry-leaves/
-inputs/datasets/cherry_leaves_split/
+inputs/datasets/**
 
-# Ignore outputs with generated arrays/models if needed
+# Ignore output binaries and saved numpy arrays
 outputs/v1/*.npy
 outputs/v1/*.h5
 
