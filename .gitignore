@@ -1,23 +1,24 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-# Environments
-.venv/
-venv/
-ENV/
+# Ignore all generated plots, numpy arrays, and models under outputs/
+outputs/
+outputs/*
+outputs/**
+outputs/v1/*.npy
+outputs/v1/*.png
+outputs/v1/*.h5
 
 # Ignore all extracted and split datasets under inputs/
+inputs/
 inputs/datasets/
 inputs/datasets/*
 inputs/datasets/**
 
-# Ignore output binaries and saved numpy arrays
-outputs/v1/*.npy
-outputs/v1/*.h5
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
 
 # OS files
 .DS_Store
 
+# Credentials
 kaggle.json
 *.json
