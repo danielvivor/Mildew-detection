@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Datasets and Large Output Files
+inputs/**/
+outputs/v1/*.h5
+
+# OS files
+.DS_Store
+
+kaggle.json
+*.json
